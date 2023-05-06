@@ -1,0 +1,278 @@
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            background-color: black;
+        }
+        
+         :root {
+            --wh-color: rgb(9, 255, 9);
+            --gt-color: rgb(255, 255, 255);
+            --ld-color: rgb(9, 91, 255);
+            --cd-color: rgb(145, 146, 150);
+            --tw-color: rgb(33, 198, 253);
+            --sn-color: rgb(255, 255, 0);
+            --yt-color: rgb(255, 0, 0);
+            --sp-color: rgb(52, 176, 71);
+            --l-y: #fe7575;
+            --o-e: #fa7e1e;
+            --p-k: #d62976;
+            --p-e: #962fbf;
+            --b-e: #4f5bd5;
+            --grad-col: linear-gradient(to bottom right, var(--b-e), var(--p-e), var(--p-k), var(--o-e), var(--l-y));
+        }
+        
+        button {
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            height: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .whatsapp {
+            background-color: black;
+            color: var(--wh-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--wh-color), 0px 0px 0.5em 0px var(--wh-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--wh-color), 0px 0px 0.5em 0px var(--wh-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--wh-color), 0px 0px 0.5em 0px var(--wh-color);
+        }
+        
+        .whatsapp:hover {
+            box-shadow: 0 0 1em 0.1em var(--wh-color);
+            background: var(--wh-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .github {
+            background-color: black;
+            color: var(--gt-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--gt-color), 0px 0px 0.5em 0px var(--gt-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--gt-color), 0px 0px 0.5em 0px var(--gt-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--gt-color), 0px 0px 0.5em 0px var(--gt-color);
+        }
+        
+        .github:hover {
+            box-shadow: 0 0 1em 0.1em var(--gt-color);
+            background: var(--gt-color);
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        
+        .linkedin {
+            background-color: black;
+            color: var(--ld-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--ld-color), 0px 0px 0.5em 0px var(--ld-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--ld-color), 0px 0px 0.5em 0px var(--ld-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--ld-color), 0px 0px 0.5em 0px var(--ld-color);
+        }
+        
+        .linkedin:hover {
+            box-shadow: 0 0 1em 0.1em var(--ld-color);
+            background: var(--ld-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .CodePen {
+            background-color: black;
+            color: var(--cd-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--cd-color), 0px 0px 0.5em 0px var(--cd-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--cd-color), 0px 0px 0.5em 0px var(--cd-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--cd-color), 0px 0px 0.5em 0px var(--cd-color);
+        }
+        
+        .CodePen:hover {
+            box-shadow: 0 0 1em 0.1em var(--cd-color);
+            background: var(--cd-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .instagram {
+            background-color: black;
+            color: var(--p-e);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--p-e), 0px 0px 0.5em 0px var(--p-e);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--p-e), 0px 0px 0.5em 0px var(--p-e);
+            box-shadow: inset 0px 0px 0.5em 0px var(--p-e), 0px 0px 0.5em 0px var(--p-e);
+        }
+        
+        .instagram:hover {
+            box-shadow: 0 0 1em 0.1em var(--p-e);
+            background: var(--grad-col);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .twitter {
+            background-color: black;
+            color: var(--tw-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--tw-color), 0px 0px 0.5em 0px var(--tw-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--tw-color), 0px 0px 0.5em 0px var(--tw-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--tw-color), 0px 0px 0.5em 0px var(--tw-color);
+        }
+        
+        .twitter:hover {
+            box-shadow: 0 0 1em 0.1em var(--tw-color);
+            background: var(--tw-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .snapchat {
+            background-color: black;
+            color: var(--sn-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--sn-color), 0px 0px 0.5em 0px var(--sn-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--sn-color), 0px 0px 0.5em 0px var(--sn-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--sn-color), 0px 0px 0.5em 0px var(--sn-color);
+        }
+        
+        .snapchat:hover {
+            box-shadow: 0 0 1em 0.1em var(--sn-color);
+            background: var(--sn-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .youtube {
+            background-color: black;
+            color: var(--yt-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--yt-color), 0px 0px 0.5em 0px var(--yt-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--yt-color), 0px 0px 0.5em 0px var(--yt-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--yt-color), 0px 0px 0.5em 0px var(--yt-color);
+        }
+        
+        .youtube:hover {
+            box-shadow: 0 0 1em 0.1em var(--yt-color);
+            background: var(--yt-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .spotify {
+            background-color: black;
+            color: var(--sp-color);
+            -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--sp-color), 0px 0px 0.5em 0px var(--sp-color);
+            -moz-box-shadow: inset 0px 0px 0.5em 0px var(--sp-color), 0px 0px 0.5em 0px var(--sp-color);
+            box-shadow: inset 0px 0px 0.5em 0px var(--sp-color), 0px 0px 0.5em 0px var(--sp-color);
+        }
+        
+        .spotify:hover {
+            box-shadow: 0 0 1em 0.1em var(--sp-color);
+            background: var(--sp-color);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .container {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 300px 300px 300px;
+            gap: 20px;
+            padding: 50px;
+        }
+        
+        .item {
+            height: 200px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <button type="button" class="whatsapp" onClick="parent.location='https://web.whatsapp.com/'">
+                <b>
+                    <i class="fa fa-whatsapp" style='font-size:45px'></i>
+                    <br>
+                    Whatsapp
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="github" onClick="parent.location='https://github.com/KURUVILLABC'">
+                <b>
+                    <i class="fa fa-github" style='font-size:45px'></i>
+                    <br>
+                    GitHub
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="Linkedin" onClick="parent.location='https://www.linkedin.com/in/kuruvilla-biju-cheruvallil-b28475206/'">
+                <b>
+                    <i class="fa fa-linkedin" style='font-size:45px'></i>
+                    <br>
+                    LinkedIn
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="CodePen" onClick="parent.location='https://codepen.io/k13c'">
+                <b>
+                    <i class="fa fa-codepen" style='font-size:45px'></i>
+                    <br>
+                    CodePen
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="twitter" onClick="parent.location='https://teitter.com'">
+                <b>
+                    <i class="fa fa-twitter" style='font-size:45px'></i>
+                    <br>
+                    Twitter
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="instagram" onClick="parent.location='https://instagram.com'">
+                <b>
+                        <i class="fa fa-instagram" style='font-size:45px'></i>
+                    <br>
+                    Instagram
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="snapchat" onClick="parent.location='https://web.snapchat.com/'">
+                <b>
+                        <i class="fa fa-snapchat" style='font-size:45px'></i>
+                    <br>
+                    Snapchat
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="youtube" onClick="parent.location='https://web.snapchat.com/'">
+                <b>
+                        <i class="fa fa-youtube" style='font-size:45px'></i>
+                    <br>
+                </b>
+            </button>
+        </div>
+        <div class="item">
+            <button type="button" class="spotify" onClick="parent.location='https://web.snapchat.com/'">
+                <b>
+                        <i class="fa fa-spotify" style='font-size:45px'></i>
+                    <br>
+                    Spotify
+                </b>
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
